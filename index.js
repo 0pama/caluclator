@@ -15,7 +15,7 @@ buttons.map( button => {
                 display.innerText = "Error"
             };
         } else if (e.target.innerText == '←') {
-            display.innerText = display.innerText.slice(0,-1);
+            display.innerText = display.innerText.slice(0,-2);
         }
         else {
             display.innerText += e.target.innerText
